@@ -36,5 +36,3 @@ if ! is_home_dir "${PROFILE_CUSTOM}"; then
   load_conf "${PROFILE_CUSTOM}"
   load_conf "${PROFILE_CUSTOM}/${PLATFORM}"
 fi
-
-cd "${ORIGINAL_PWD}"
